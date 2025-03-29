@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav Shandil - Personal Website</title>
+    <style>
+        /* Background with a colorful gradient */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6bff57, #ec6c49, #dbf355, #ffdde1);
+            background-size: cover;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        /* Glass effect container */
+        .container {
+            background: rgba(235, 148, 148, 0.15);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            max-width: 400px;
+            text-align: center;
+            border: 2px solid rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #241313;
+            font-size: 28px;
+        }
+
+        .details {
+            font-size: 18px;
+            color: #140b0b;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #220f0f;
+            text-decoration: underline;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            background: #000000;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: hsl(350, 100%, 72%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Saurav Shandil</h1>
+        
+        <p class="details"><strong>Instagram:</strong> <a href="https://www.instagram.com/_teddy_.editz" target="_blank">@_teddy_.editz</a></p>
+        <p class="details"><strong>About Me:</strong> Passionate about editing, tech, and creativity!</p>
+        <a class="btn" href="https://www.instagram.com/_teddy_.editz" target="_blank">Follow Me</a>
+    </div>
+
+</body>
+</html>
